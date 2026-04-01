@@ -1,0 +1,25 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      font-size: 64px;
+      fill: #ffffff;
+    }
+    .cursor {
+      fill: #ffffff;
+      animation: blink 1s steps(1) infinite;
+    }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+  </style>
+
+  <!-- фон -->
+  <rect width="100%" height="100%" fill="#000000"/>
+
+  <!-- текст -->
+  <text x="20" y="75" class="text">a.</text>
+
+  <!-- курсор сразу после точки -->
+  <rect x="78" y="28" width="4" height="48" class="cursor"/>
+</svg>
